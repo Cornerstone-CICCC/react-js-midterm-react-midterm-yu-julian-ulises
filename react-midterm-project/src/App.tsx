@@ -7,8 +7,8 @@ import Standings from './components/standings/Standings'
 import News from './components/news/News'
 import NotFound from './components/notfound/NotFound'
 
-function App() {
 
+function App() {
   return (
     <>
       <Router>
