@@ -1,11 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Layout from './pages/Layout'
-import Home from './components/home/Home'
-import ScoreBoard from './components/scoreboard/ScoreBoard'
-import Standings from './components/standings/Standings'
-import News from './components/news/News'
-import NotFound from './components/notfound/NotFound'
+import Home from './pages/Home/Home'
+import ScoreBoard from './pages/Scoreboard/ScoreBoard'
+import Standings from './pages/Standings/Standings'
+import News from './components/News/News'
+import NotFound from './pages/Notfound/NotFound'
 
 
 function App() {
