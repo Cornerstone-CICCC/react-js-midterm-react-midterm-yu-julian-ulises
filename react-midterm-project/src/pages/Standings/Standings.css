@@ -1,0 +1,95 @@
+
+body{
+  background-color: rgb(255, 253, 253);
+}
+
+.PremierTable{
+  overflow: auto;
+}
+
+.table-dark {
+  --bs-table-color: #fff;
+  --bs-table-bg: #2C0A3D;
+  --bs-table-border-color: black;
+  --bs-table-striped-bg: #3a0d50;
+  --bs-table-striped-color: #fff;
+  --bs-table-active-bg: #373b3e;
+  --bs-table-active-color: #fff;
+  --bs-table-hover-bg: #323539;
+  --bs-table-hover-color: #fff;
+  color: var(--bs-table-color);
+  border-color: var(--bs-table-border-color);
+}
+
+.league-title{
+  font-weight: 100;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  
+}
+
+.league-description{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+
+.league-info {
+  background-color: #2C0A3D; 
+    color: white;
+    padding: 16px;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    
+
+  } 
+
+  
+
+  
+
+
+  
+  .text-sm p {
+    font-size: 14px; 
+    margin: 4px 0;
+    color: black;
+  }
+  
+  .league-logo {
+    width: 20%; 
+    margin-right: 16px;
+  }
+
+  @media screen and (min-width: 1024px){
+    .league-logo{
+      width: 15%; 
+    
+    }
+  }
+
+
+
+  @media screen and (min-width: 1024px){
+    .league-info{
+      background-color: #2C0A3D; 
+    color: white;
+    padding: 16px;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    }
+  }
+
+  
