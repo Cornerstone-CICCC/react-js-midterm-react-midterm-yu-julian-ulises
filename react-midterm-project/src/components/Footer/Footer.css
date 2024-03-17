@@ -1,0 +1,54 @@
+.footer {
+  font-family: 'Bebas Neue', sans-serif;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.text-muted { 
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.text-dark {
+  text-decoration: none;
+  font-size: 28px;
+  margin: 0 15px;
+}
+
+@media (max-width: 600px) {
+  .text-dark {
+    gap: 10px;
+    font-size: 23px;
+    margin: 0 8px;
+  }
+}
+
+
+.icon-link {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.list-icon {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-icon-item {
+  text-decoration: none;
+}
+

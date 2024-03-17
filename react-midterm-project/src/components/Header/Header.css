@@ -1,0 +1,29 @@
+
+.header {
+  font-family: 'Bebas Neue', sans-serif;
+  position: fixed;
+  width: 100%;
+}
+
+.container {
+  margin: 0px 100px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0px 50px;
+  }
+}
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+.nav-link {
+  font-size: 28px;
+}
+
+
+.navbar-toggler.collapsed {
+  border: none;
+}
