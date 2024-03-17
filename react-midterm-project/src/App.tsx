@@ -5,7 +5,7 @@ import Layout from './pages/Layout'
 import Home from './pages/Home/Home'
 import ScoreBoard from './pages/Scoreboard/ScoreBoard'
 import Standings from './pages/Standings/Standings'
-import News from './components/News/News'
+import Ranking from './components/Ranking/Ranking'
 import NotFound from './pages/Notfound/NotFound'
 
 
@@ -18,7 +18,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="scoreboard" element={<ScoreBoard />} />
             <Route path="standings" element={<Standings />} />
-            <Route path="news" element={<News />} />
+            <Route path="ranking" element={<Ranking />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
