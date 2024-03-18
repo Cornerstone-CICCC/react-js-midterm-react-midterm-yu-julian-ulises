@@ -1,6 +1,7 @@
 import './RankingTable.css';
 import { Container, Table } from 'react-bootstrap';
 import { RankingData } from '../../pages/Ranking/Ranking';
+import RankingCard from '../RankingCard/RankingCard';
 
 type RankingTableProps = {
   rankingData: RankingData[]
@@ -24,13 +25,7 @@ const RankingTable = ({ rankingData }: RankingTableProps) => {
         <tbody>
           {rankingData.map((element, index) => (
             <tr key={index}>
-              <td>{element.rank}</td>
-              <td></td>
-              <td>{element.name}</td>
-              <td>{element.team}</td>
-              <td>{element.goals}</td>
-              <td>{element.assists}</td>
-              <td>{element.played}</td>
+              <RankingCard data={element} />
             </tr>
           ))}
         </tbody>
