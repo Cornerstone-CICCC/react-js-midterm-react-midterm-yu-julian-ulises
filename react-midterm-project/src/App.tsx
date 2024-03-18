@@ -5,7 +5,7 @@ import Layout from './pages/Layout'
 import Home from './pages/Home/Home'
 import ScoreBoard from './pages/Scoreboard/ScoreBoard'
 import Standings from './pages/Standings/Standings'
-import Ranking from './components/Ranking/Ranking'
+import Ranking from './pages/Ranking/Ranking'
 import NotFound from './pages/Notfound/NotFound'
 
 
