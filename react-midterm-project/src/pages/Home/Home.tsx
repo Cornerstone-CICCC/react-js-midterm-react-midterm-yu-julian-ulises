@@ -1,19 +1,24 @@
 import HeroSection from '../../components/HeroSection/HeroSection'
-import ScoreBoard from '../Scoreboard/ScoreBoard'
+import { Button, Container } from 'react-bootstrap';
 
-import './Home.css'
+import './Home.css';
+import ScoreboardSection from '../../components/ScoreboardSection/ScoreboardSection';
+import StandingsSection from '../../components/StandingsSection/StandingsSection';
+import RankingSection from '../../components/RankingSection/RankingSection';
 
 const Home = () => {
 
   return (
     <>
       <HeroSection />
-      <h2>SCOREBOARD</h2>
-      <ScoreBoard/>
-      <h2>STANDINGS</h2>
-      {/* <StandingsTable /> */}
-      <h2>Ranking</h2>
-      {/* <RankingTable /> */}
+      <Container className="d-flex align-items-center justify-content-center" style={{ width: '100vw' }}>
+        <Button className="btn btn-light">
+          More Details
+        </Button> 
+      </Container>
+      <ScoreboardSection />
+      <StandingsSection />
+      <RankingSection />
     </>
   )
 }
