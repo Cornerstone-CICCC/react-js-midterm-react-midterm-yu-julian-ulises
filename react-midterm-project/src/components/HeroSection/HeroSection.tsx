@@ -1,6 +1,7 @@
 import leagueLogo from '../../assets/Images_badge/england-premier-league-logo-on-transparent-background-free-vector.jpg';
 import "./HeroSection.css";
 
+
 const HeroSection = () => {
   return (
     <div className="herosection-info">
