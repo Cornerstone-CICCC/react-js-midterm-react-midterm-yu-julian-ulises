@@ -1,0 +1,40 @@
+.ranking-container {
+  display: flex;
+  margin: 50px 70px 100px 70px;
+  gap: 30px;
+}
+
+.section-font {
+  font-size: 120px;
+}
+
+.left-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.right-section {
+  width: 50%;
+}
+
+.right-section-title {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+
+@media (max-width: 760px) {
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
