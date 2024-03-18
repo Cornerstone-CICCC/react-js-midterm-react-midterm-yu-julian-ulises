@@ -36,25 +36,19 @@ body{
 
 
 .league-info {
-  background-color: #2C0A3D; 
+    background-color: #2C0A3D; 
     color: white;
     padding: 16px;
     display: flex;
     border-radius: 10px 10px 10px 10px;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 100px;
     justify-content: center;
     text-align: center;
-    
-
+    display: flex;
+    flex-direction: column;
+    gap: 4;
   } 
-
-  
-
-  
-
-
   
   .text-sm p {
     font-size: 14px; 
@@ -79,18 +73,19 @@ body{
   @media screen and (min-width: 1024px){
     .league-info{
       background-color: #2C0A3D; 
-    color: white;
-    padding: 16px;
-    display: flex;
-    border-radius: 10px 10px 10px 10px;
-    align-items: center;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    justify-content: center;
-    text-align: center;
-    max-width: 100%;
+      color: white;
+      padding: 16px;
+      display: flex;
+      border-radius: 10px 10px 10px 10px;
+      align-items: center;
+      margin-top: 100px;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 100px;
+      justify-content: center;
+      text-align: center;
+      max-width: 100%;
+      flex-direction: row;
     }
   }
 
