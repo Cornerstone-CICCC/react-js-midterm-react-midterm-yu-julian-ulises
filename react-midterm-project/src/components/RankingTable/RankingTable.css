@@ -1,0 +1,10 @@
+
+.rankingContainer {
+  margin: 50px 0px 30px 0px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.rankingTable {
+  margin: 0px 50px 0px 50px;
+}
